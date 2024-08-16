@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Events Management</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Add Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+body {
+background-color: #ffe6cc;
+font-family: "Times New Roman", serif;
+scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: serif;
+letter-spacing: 5px;
+}
+.testimonials {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.testimonial {
+flex: 0 1 48%; /* 48% width for each testimonial */
+background-color: #f9f9f9;
+margin-bottom: 20px;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.testimonial blockquote {
+margin: 0;
+padding: 0;
+font-style: italic;
+}
+.testimonial footer {
+margin-top: 10px;
+font-size: 0.9em;
+text-align: right;
+color: #555;
+}
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 20px;
+background-color: #f8f9fa;
+}
+.social-icons {
+margin: 10px 0;
+}
+.social-icons a {
+margin: 0 10px;
+font-size: 24px;
+color: #333;
+text-decoration: none;
+}
+.social-icons a:hover {
+color: #007bff;
+}
+@media (max-width: 768px) {
+.testimonial {
+flex: 0 1 100%;
+}
+}
+</style>
+</head>
+<body>
+
+<h1 style="background-color:#f9e79f;">Meet Your Team</h1>
+
+<!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
+<a href="index.html" class="w3-bar-item w3-button">ARM Maven Contracting</a>
+<div class="w3-right w3-hide-small">
+<a href="home.html" class="w3-bar-item w3-button">Home</a>
+<a href="whoweare.html" class="w3-bar-item w3-button">Who we are</a>
+<a href="services.html" class="w3-bar-item w3-button">Services</a>
+<a href="corporateevents.html" class="w3-bar-item w3-button">Corporate Events</a>
+<a href="testimonials.html" class="w3-bar-item w3-button">Testimonials</a>
+<a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+<div class="w3-padding-top-48">
+<div class="w3-display-container">
+<img src="Images/testimonials.jpg" alt="Testimonials" style="width:50%; display: block; margin: auto;">
+<div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small"></div>
+</div>
+</div>
+
+<!-- Testimonials -->
+<div id="about" class="w3-padding-top-64">
+<h1 class="w3-center">What Our Clients Say</h1>
+<br>
+<div class="testimonials">
+<div class="testimonial w3-text-grey">
+<blockquote>
+<p><strong>“It might be cliché to say that our wedding day was the best day of our lives but it really was. Every detail was 100x better than we could have ever imagined! The Team has such a keen eye to make things so wonderful! My Lead Planner gave us suggestions to make the wedding itinerary more efficient, flow, and run more smoothly. The day of the wedding, the whole team was sweet, accommodating, and totally there for my husband and I!”</strong></p>
+</blockquote>
+<footer>— Tina Suhrke, Bride</footer>
+</div>
+<div class="testimonial w3-text-green">
+<blockquote>
+<p><strong>“Finding Quintana Events was a dream come true. I instantly felt like I had known the staff for a lifetime. They listened to my vision and helped me bring it to life. My Event Producer tended to my every need leading up to the wedding and on the day of. On my wedding day I was able to completely let go and he handled everything flawlessly. Hiring Quintana Events as my planner was the best decision I made!”</strong></p>
+</blockquote>
+<footer>— Desiree Picazo, Bride</footer>
+</div>
+<div class="testimonial w3-text-orange">
+<blockquote>
+<p><strong>“I do not even know how to BEGIN to thank your staff for all the incredible work put in over the past few months and particularly over the past few days. I am completely in awe of how on top of things you manage to be and how EASY you make things for me and my staff. Speaking of my staff, they all LOVE working with everyone at ARM Maven Contracting. I heard nothing but incredibly positive things over the past few days about their interactions with your staff members at events. I honestly don’t know how we could possibly do it without you. Your team really did an amazing job of pulling off an incredibly successful event.”</strong></p>
+</blockquote>
+<footer>— Senior Assistant Director of Admissions, Yale University</footer>
+</div>
+<div class="testimonial w3-text-blue">
+<blockquote>
+<p><strong>“Thanks to your team, our symposium was a huge success. How you can extract 150 people from lunch and back into the auditorium in 5 minutes is a mystery to me – but very much appreciated. Our program of events would never get off the ground without your enthusiastic advice, help, and support. We should really make you an honorary member of IPCH! ”</strong></p>
+</blockquote>
+<footer>- Interim Director, Institute for the Preservation of Cultural Heritage</footer>
+</div>
+</div>
+<br>
+</div>
+</div>
+
+<footer>
+<p>Connect with us on social media</p>
+<div class="social-icons">
+<a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+<a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+<a href="mailto:info@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+</div>
+<p>&copy; 2024 ARM Maven Contracting. All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            scroll-behavior: smooth;
+            background-color: #ffe6cc;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: serif;
+            letter-spacing: 5px;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .social-icons {
+            margin: 10px 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #007bff;
+        }
+
+        .image-wrapper {
+            position: absolute;
+            top: 75%; /* Positions the top of the wrapper at 75% of the page height */
+            right: 0; /* Aligns the wrapper to the right side of the page */
+            transform: translateY(-75%); /* Adjusts the images to start from the exact 75% */
+        }
+
+        .right-aligned-image {
+            width:300px; /* Set this to your desired width */
+            margin-left: 20px; /* Optional: Adds space to the left of the images */
+            margin-bottom: 20px; /* Adds space between images vertically */
+            display: block; /* Ensures each image is on a new line */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="background-color:#f9e79f;">Meet Your Team</h1>
+
+<!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
+    <a href="index.html" class="w3-bar-item w3-button">ARM Maven Contracting</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+        <a href="home.html" class="w3-bar-item w3-button">Home</a>
+        <a href="whoweare.html" class="w3-bar-item w3-button">Who we are</a>
+        <a href="services.html" class="w3-bar-item w3-button">Services</a>
+        <a href="corporateevents.html" class="w3-bar-item w3-button">Corporate Events</a>
+        <a href="testimonials.html" class="w3-bar-item w3-button">Testimonials</a>
+        <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+</div>
+
+<!-- Services -->
+<div id="services" class="w3-padding-top-64">
+    <h1 class="w3-center">What can we do for you?</h1>
+    <div class="w3-row">
+        <div class="w3-col l6 m6 w3-padding-large">
+            <h4>Project Management and Timeline Coordination</h4>
+            <ul class="w3-text-grey">
+                <li>Every meeting is different, and a customized timeline is required, whether the event is virtual, hybrid, or in-person. Let us guide you through the process unique to your project and keep the team on track.</li>
+                <li>Facilitate key stakeholders in determining the vision of the event and defining a successful outcome.</li>
+                <li>Work together to design a program to deliver optimum results.</li>
+                <li>Develop a timeline for the event.</li>
+                <li>Manage event timeline commitments and deadlines throughout the process.</li>
+                <li>Schedule and run team meetings.</li>
+                <li>Provide weekly updates regarding the process, including vendors, sponsorship, technology development, etc.</li>
+            </ul>
+            <br>
+
+            <h4>Event Communication</h4>
+            <ul class="w3-text-grey">
+                <li>MeetGreen can assist in developing effective, compelling, and concise communication strategies.</li>
+                <li>Social media communication plans.</li>
+                <li>Pre-event attendee communication using a variety of platforms.</li>
+                <li>Website content.</li>
+                <li>Speaker guides and training.</li>
+                <li>Sponsor and exhibitor outreach.</li>
+                <li>Pre- and post-event surveys.</li>
+            </ul>
+            <br>
+
+            <h4>Budget Planning</h4>
+            <ul class="w3-text-grey">
+                <li>Spearhead budget development by outlining strategies to save money and the planet through innovative use of the supply chain and technology.</li>
+                <li>Increase revenue through innovative, tested approaches in today’s experiential marketing world.</li>
+                <li>Monitor all areas of the budget and report directly to key stakeholders.</li>
+                <li>Ensure all vendors are accountable for negotiated services and are on time and budget.</li>
+            </ul>
+            <br>
+
+            <h4>Venue Site Selection and Negotiation</h4>
+            <ul class="w3-text-grey">
+                <li>Based on your organization’s needs, MeetGreen provides significant resources to locate meeting and housing sites worldwide. In our selection process, we are always looking to improve your bottom line and limit liability.</li>
+                <li>Research viable conference sites including technology requirements and sustainable practices.</li>
+                <li>Send out Request for Proposals and manage the vetting process.</li>
+                <li>Recommend the best fit for your event.</li>
+                <li>Coordinate and manage onsite inspections.</li>
+                <li>Negotiate the best rates possible.</li>
+                <li>Advocate for contracts and environmentally responsible practice clauses.</li>
+                <li>Monitor and address risk management issues at meeting venues.</li>
+                <li>Rebate hotel commission based on your nightly housing room block.</li>
+            </ul>
+            <br>
+        </div>
+
+        <div class="w3-col l6 m6 w3-padding-large">
+            <!-- Empty column; consider adding content or removing if not needed -->
+        </div>
+    </div>
+</div>
+
+<!-- Image in Display Container -->
+<div class="w3-padding-top-38">
+    <div class="image-wrapper">
+        <img src="Images/eventphotography.jpeg" alt="Event Photography" class="right-aligned-image">
+        <img src="images/catering.jpg" alt="Catering" class="right-aligned-image">
+        <img src="images/stagedesign1.jpg" alt="Stage Design" class="right-aligned-image">
+        <img src="images/balloon ceiling.jpg" alt="Balloon Ceiling" class="right-aligned-image">
+    </div>
+</div>
+
+<!-- About -->
+<div id="about" class="w3-padding-top-64">
+    <!-- Content for About section should be added here -->
+</div>
+
+<footer>
+    <p>Connect with us on social media</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:info@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; 2024 ARM Maven Contracting. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
